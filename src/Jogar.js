@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Chessboard } from 'react-chessboard';
 import { Chess } from 'chess.js';
 import './Jogar.css';
-import bot from './Imagem/Kanna.jpeg';
+import bot from './Imagem/BotT.jpeg';
 
 function Jogar() {
   const [game, setGame] = useState(new Chess()); // Estado inicial do jogo de xadrez
