@@ -6,7 +6,7 @@
 
 .animated-title {
   font-size: 3em;
-  color: #cbf7ff;
+  color: #e3fbff;
   animation: fadeIn 2s ease-in-out;
   margin-bottom: 40px;
   text-shadow: 2px 2px 5px #000; /* Adiciona um leve sombreamento no título */
@@ -24,7 +24,7 @@
   justify-content: center; /* Centraliza os itens */
   margin-bottom: 30px;
   padding: 20px;
-  background-color: #333;
+  background-color: #4b4b4b;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease-in-out; /* Animação ao passar o mouse */
@@ -62,16 +62,16 @@
 }
 
 .frase-image {
-  width: 120px;
+  width: 150px;
   height: auto;
-  margin-right: 20px;
-  border-radius: 50%; /* Deixa a imagem em formato circular */
+  margin-right: 50px;
+  border-radius: 5%; /* Deixa a imagem em formato circular */
 }
 
 .frase-text {
   font-style: italic;
   font-size: 1.4em;
-  color: #cbf7ff;
+  color: #ffffff;
   line-height: 1.4;
 }
 

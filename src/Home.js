@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css'; // Se desejar ter um CSS específico para Home
+import './Home.css'; 
 
 function Home() {
   return (

@@ -72,6 +72,9 @@ header {
 
 /* Estilos do rodapé */
 footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
   background-color: #000;
   color: white;
   text-align: center;
@@ -79,4 +82,59 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
+}
+
+.news-section {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.news-section h2 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.news-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.news-item {
+  background-color: #333;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.news-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.news-text {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  margin: 15px 0;
+}
+
+.news-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.news-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.news-button:hover {
+  background-color: #45a049;
 }
