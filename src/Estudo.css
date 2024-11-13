@@ -1,0 +1,58 @@
+/* Estudo.css */
+
+.estudo-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+    max-width: 1700px;
+  }
+  
+  .estudo-box {
+    background-color: #000000;
+    color: #fff;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .estudo-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .estudo-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .estudo-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  .estudo-description {
+    font-size: 25px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .estudo-button {
+    padding: 10px 20px;
+    background-color: #41c990;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .estudo-button:hover {
+    background-color: #36a979;
+  }
+  

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import Criador from './Criador';
 import Curiosidades from './Curiosidade';
+import Estudo from './Estudo';
 import Aprendizado from './Aprendizado';
 import Jogar from './Jogar';
 import Rei from './Imagem/Rei.png';
@@ -10,6 +11,7 @@ import Aprendizadoicon from './Imagem/Aprendizadoicon.png';
 import Curiosidadeicon from './Imagem/Curiosidadeicon.png';
 import Homeicon from './Imagem/Homeicon.png';
 import Jogaricon from './Imagem/Jogaricon.png';
+import Estudoicon from './Imagem/Estudoicon.png';
 
 
 
@@ -23,7 +25,7 @@ function App() {
               <li><Link to="/" className="nav-item"><img src={Homeicon} alt="Home" /> Início</Link></li>
               <li><Link to="/aprendizado" className="nav-item"><img src={Aprendizadoicon} alt="Aprendizado" /> Aprendizado</Link></li>
               <li><Link to="/curiosidades" className="nav-item"><img src={Curiosidadeicon} alt="Curiosidades" /> Curiosidades</Link></li>
-              
+              <li><Link to="/estudo" className="nav-item"><img src={Estudoicon} alt="Estudo" /> Estudo Dirigido</Link></li>
               <li><Link to="/jogar" className="nav-item"><img src={Jogaricon} alt="Jogar" /> Jogar</Link></li>
             </ul>
           </nav>
@@ -67,14 +69,14 @@ function App() {
             <Route path="/curiosidades" element={<Curiosidades />} />
             <Route path="/aprendizado" element={<Aprendizado />} />
             <Route path="/jogar" element={<Jogar />} />
-            
+            <Route path="/estudo" element={<Estudo />} />
             <Route path="/criador" element={<Criador />} />
           </Routes>
         </main>
 
         <footer>
         <p>Desenvolvido por: <Link to="/criador">Cauã Luiz</Link></p>
-        <p>Versão 1.6</p>
+        <p>Versão 1.7</p>
         </footer>
       </div>
     </Router>
